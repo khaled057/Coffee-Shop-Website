@@ -1,0 +1,60 @@
+/*!
+ * Font Awesome Free 6.7.2 (trimmed to the icons used on this site)
+ * https://fontawesome.com/license/free
+ * Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License
+ * Add a new icon by adding its class + codepoint below.
+ */
+@font-face {
+	font-family: "Font Awesome 6 Brands";
+	font-weight: 400;
+	font-display: swap;
+	src: url(../fonts/fa-brands-400.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Font Awesome 6 Free";
+	font-weight: 400;
+	font-display: swap;
+	src: url(../fonts/fa-regular-400.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+	font-display: swap;
+	src: url(../fonts/fa-solid-900.woff2) format("woff2");
+}
+
+.fa-solid,
+.fa-regular,
+.fa-brands {
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 1;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.fa-solid::before,
+.fa-regular::before,
+.fa-brands::before {
+	content: var(--fa);
+}
+
+.fa-solid { font-family: "Font Awesome 6 Free"; font-weight: 900; }
+.fa-regular { font-family: "Font Awesome 6 Free"; font-weight: 400; }
+.fa-brands { font-family: "Font Awesome 6 Brands"; font-weight: 400; }
+
+.fa-2x { font-size: 2em; }
+
+/* Icons in use */
+.fa-heart { --fa: "\f004"; }
+.fa-envelope { --fa: "\f0e0"; }
+.fa-phone { --fa: "\f095"; }
+.fa-location-dot { --fa: "\f3c5"; }
+.fa-x-twitter { --fa: "\e61b"; }
+.fa-facebook-f { --fa: "\f39e"; }
+.fa-linkedin-in { --fa: "\f0e1"; }
+.fa-instagram { --fa: "\f16d"; }
